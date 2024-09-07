@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+}
+
+.custom-shape-divider-top-1724624195 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1724624195 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 350px;
+}
+
+.custom-shape-divider-top-1724624195 .shape-fill {
+    fill: #039CDB;
+}
+
+#iconMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#iconClose {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.displayNavOn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.displayNavOff {
+    display: none;
+}
+
+.navBar {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f7f7;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.navBar a:hover {
+    text-decoration: line-through;
+    border: solid 1px white;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: all 0.9s;
+}
+
+.containerWhatsapp img {
+    width: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.cardsTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 75vh;
+}
+
+.cardTop {
+    width: 20%;
+    height: 70vh;
+    border-radius: 10px;
+    position: relative;
+}
+
+.textoCardTopo1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: #f9f7f7;
+    margin-top: 50%;
+    padding: 30px;
+}
+
+.textoCardTopo2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: #f9f7f7;
+    margin-top: 50%;
+    padding: 30px;
+}
+
+.textoCardTopo3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: #f9f7f7;
+    margin-top: 50%;
+    padding: 30px;
+}
+
+.textoCardTopo4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: #f9f7f7;
+    margin-top: 50%;
+    padding: 30px;
+}
+
+.displayCardOn {
+    display: block;
+    position: absolute;
+    top: 0;
+    background: #f9f7f7;
+    margin-top: 10vh;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.displayCardOff {
+    display: none;
+}
+
+.cardTop img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.cardTop input {
+    width: 100%;
+    height: 5vh;
+    background: white;
+    border-radius: 10px;
+}
+
+input:hover {
+    background: #039CDB;
+    color: white;
+    transform: scale(0.9);
+    transition: all 0.9s;
+}
+
+input[type='button'] {
+    font-size: 1.3rem;
+}
+
+.cardsMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cardMain {
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+    background: #E0F7FF;
+}
+
+.containerIconTop {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+}
+
+#iconFerramenta {
+    font-size: 2rem;
+}
+
+#iconBallon {
+    display: flex;
+    justify-content: center;
+    color: #FFC107;
+    font-size: 5rem;
+    margin-bottom: 5vh;
+}
+
+.containerFeeds {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #f9f7f7;
+    margin-top: 15vh;
+}
+
+.containerFeeds p {
+    display: flex;
+    width: 60%;
+    height: 10vh;
+    padding: 10px;
+}
+
+.containerIconBotton {
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 6vh;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.cardAbout1 {
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+    z-index: -3;
+}
+
+.cardAbout1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardAbout2 {
+    position: relative;
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    background: rgb(249, 247, 247);
+    z-index: 4;
+    margin-left: 55%;
+}
+
+.cardAbout2 p {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.3rem;
+}
+
+.containerLocaliza {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerLocaliza iframe {
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background: rgb(249, 247, 247);
+}
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: line-through;
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20vh;
+        background: #039CDB;
+    }
+
+    header img {
+        mix-blend-mode: multiply;
+        width: 300px;
+    }
+
+    .custom-shape-divider-top-1724624195 svg {
+        display: none;
+    }
+
+    #iconMenu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 3rem;
+    }
+
+    .navBar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .navBar a:hover {
+        text-decoration: line-through;
+    }
+
+    .containerWhatsapp {
+        margin-top: 3vh;
+    }
+
+    .cardsTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .cardTop {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 30vh;
+    }
+
+    .cardTop p {
+        position: absolute;
+        top: 0;
+        background: #f9f7f7;
+        margin-top: 3.5vh;
+        padding: 30px;
+        font-size: 12.7px;
+    }
+
+    .cardsMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin-top: 250vh;
+        gap: 30px;
+    }
+
+    .cardMain {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 20vh;
+    }
+
+    #iconBallon {
+        font-size: 50px;
+    }
+
+    .containerFeeds p {
+        display: flex;
+        width: 90%;
+        height: 10vh;
+        padding: 10px;
+    }
+
+    .about {
+        margin-top: 150vh;
+    }
+
+    .cardAbout1 {
+        width: 90%;
+    }
+
+    .cardAbout2 {
+        width: 70%;
+        height: 60vh;
+        margin-top: 85vh;
+        margin-left: -1vh;
+    }
+
+    .cardAbout2 p {
+        font-size: 14px;
+        margin-top: 9vh;
+        padding: 10px;
+    }
+
+    .containerLocaliza {
+        margin-top: 70vh;
+    }
+
+    iframe {
+        width: 310px;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer a:hover {
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20vh;
+        background: #039CDB;
+    }
+
+    header img {
+        mix-blend-mode: multiply;
+        width: 300px;
+    }
+
+    .custom-shape-divider-top-1724624195 svg {
+        display: none;
+    }
+
+    #iconMenu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 3rem;
+    }
+
+    .navBar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .displayNavOn a {
+        font-size: 2rem;
+    }
+
+    .navBar a:hover {
+        text-decoration: line-through;
+    }
+
+    .containerWhatsapp img {
+        width: 50px;
+    }
+
+    .cardsTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .cardTop {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 30vh;
+    }
+
+    .cardTop p {
+        position: absolute;
+        top: 0;
+        background: #f9f7f7;
+        margin-top: 15vh;
+        padding: 30px;
+        font-size: 1.5em;
+    }
+
+    .cardsMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin-top: 350vh;
+        gap: 30px;
+    }
+
+    .cardMain {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .about {
+        margin-top: 90vh;
+    }
+
+    .cardAbout1 {
+        width: 70%;
+    }
+
+    .cardAbout2 {
+        width: 60%;
+        height: 70vh;
+        margin-top: 95vh;
+        margin-left: -1vh;
+    }
+
+    .cardAbout2 p {
+        font-size: 1.5rem;
+        margin-top: 14vh;
+        padding: 10px;
+    }
+
+    .containerLocaliza {
+        margin-top: 60vh;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer a:hover {
+        text-decoration: line-through;
+    }
+}
