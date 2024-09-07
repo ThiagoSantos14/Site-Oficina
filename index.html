@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagens/logotipo da página.png">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Auto Mecânica Baré - Oferecemos os melhores preços</title>
+    </head>
+    <body>
+        <header id="inicio">
+            <div class="custom-shape-divider-top-1724624195">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <img src="imagens/logotipo da página.png" alt="Logo da página" width="100" class="logotipo">
+
+            <span class="material-symbols-outlined" id="iconMenu" onclick="exibir()">menu</span>
+
+            <span class="material-symbols-outlined" id="iconClose" onclick="ocultar()">close</span>
+
+            <nav class="navBar">
+                <a href="#inicio" target="_self">Início</a>
+                <a href="#sobre" target="_self">Sobre-nós</a>
+                <a href="#servicos" target="_self">serviços</a>
+                <a href="#localizacao" target="_self">Localização</a>
+            </nav>
+
+            <section class="containerWhatsapp">
+                <a href="https://wa.me/5511947061060" target="_blank"><img src="imagens/logo-whatsapp.jpg" alt="Logo do whatsapp" title="Whatsapp"></a>
+            </section>
+        </header>
+
+        <main>
+            <section class="cardsTop" id="servicos">
+                <section class="cardTop">
+                    <img src="imagens/Troca correia dentada.jpg" alt="Imagem trocando correia dentada">
+
+                    <p class="textoCardTopo1">A troca de correia dentada é um dos serviços essenciais realizados na Auto Mecânica Baré. Com a nossa experiência de 13 anos, garantimos que a substituição seja feita com precisão e dentro dos intervalos recomendados pelo fabricante. A correia dentada é crucial para o funcionamento correto do motor, e sua troca preventiva evita danos graves e dispendiosos ao veículo. Conte conosco para um serviço ágil e confiável, mantendo seu automóvel seguro e funcionando perfeitamente.</p>
+
+                    <input type="button" value="Saiba mais" class="btnSaiba-1" onclick="exibirTexto1()" onmouseout="ocultarTexto1()">
+                </section>
+
+                <section class="cardTop">
+                    <img src="imagens/Troca de oleo.jpg" alt="Imagem troca de oleo">
+
+                    <p class="textoCardTopo2">Na Auto Mecânica Baré, a troca de óleo do motor e do filtro de óleo é realizada com total cuidado e precisão. Utilizamos apenas óleos e filtros de alta qualidade, garantindo a lubrificação ideal do motor e a remoção de impurezas que podem comprometer o desempenho do veículo. Com nossa experiência de 13 anos, oferecemos um serviço ágil e eficiente, prolongando a vida útil do seu motor e assegurando que ele funcione de maneira suave e segura. Mantenha seu carro em ótimo estado com a nossa manutenção especializada.</p>
+
+                    <input type="button" value="Saiba mais" class="btnSaiba-2" onclick="exibirTexto2()" onmouseout="ocultarTexto2()">
+                </section>
+
+                <section class="cardTop">
+                    <img src="imagens/Trocando pastilhas freio.jpg" alt="Imagem troca de pastilhas freio">
+
+                    <p class="textoCardTopo3">Na Auto Mecânica Baré, a troca de pastilhas de freio é tratada com a máxima seriedade para garantir a sua segurança ao volante. Com 13 anos de experiência, sabemos que freios bem mantidos são essenciais para a eficiência e resposta rápida do veículo em qualquer situação. Utilizamos pastilhas de alta qualidade e realizamos o serviço com precisão, assegurando que seu sistema de freios funcione perfeitamente. Confie na nossa oficina para manter seu carro seguro e pronto para as estradas.</p>
+
+                    <input type="button" value="Saiba mais" class="btnSaiba-3" onclick="exibirTexto3()" onmouseout="ocultarTexto3()">
+                </section>
+
+                <section class="cardTop">
+                    <img src="imagens/Troca kit embreagem.jpg" alt="Imagem troca kit embreagem">
+
+                    <p class="textoCardTopo4">Na Auto Mecânica Baré, a troca do kit de embreagem é realizada com expertise e atenção aos detalhes. Com nossos 13 anos de experiência, garantimos que seu veículo volte a ter um desempenho suave e preciso nas trocas de marcha. Utilizamos kits de embreagem de alta qualidade, assegurando durabilidade e funcionamento ideal. Se você está enfrentando dificuldades ao trocar de marcha ou sentindo que a embreagem está patinando, conte conosco para um serviço confiável e eficiente, devolvendo a confiança e o controle ao dirigir.</p>
+
+                    <input type="button" value="Saiba mais" class="btnSaiba-4" onclick="exibirTexto4()" onmouseout="ocultarTexto4()">
+                </section>
+            </section>
+
+            <section class="cardsMain">
+                <section class="cardMain">
+                    <section class="containerIconTop">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+
+                    <section class="containerFeeds">
+                        <span class="material-symbols-outlined" id="iconBallon">where_to_vote</span>
+
+                        <p>"Essa oficina é muito boa, e tem um atendimento maravilhoso."</p>
+
+                        <p>Fonte: Google</p>
+                    </section>
+
+                    <section class="containerIconBotton">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+                </section>
+
+                <section class="cardMain">
+                    <section class="containerIconTop">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+
+                    <section class="containerFeeds">
+                        <span class="material-symbols-outlined" id="iconBallon">where_to_vote</span>
+
+                        <p>"Melhor mecânico da região, sem dúvida alguma, serviços de qualidade."</p>
+
+                        <p>Fonte: Google</p>
+                    </section>
+
+                    <section class="containerIconBotton">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+                </section>
+
+                <section class="cardMain">
+                    <section class="containerIconTop">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+
+                    <section class="containerFeeds">
+                        <span class="material-symbols-outlined" id="iconBallon">where_to_vote</span>
+
+                        <p>"Ótimo serviço, um bom atendimento, muita segurança.."</p>
+
+                        <p>Fonte: Google</p>
+                    </section>
+
+                    <section class="containerIconBotton">
+                        <span class="material-symbols-outlined" id="iconFerramenta">handyman</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">construction</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">plumbing</span>
+
+                        <span class="material-symbols-outlined" id="iconFerramenta">build</span>
+                    </section>
+                </section>
+
+            </section>
+
+            <section class="about" id="sobre">
+                <section class="cardAbout1">
+                    <img src="imagens/Imagem para fundo sobre.jpg" alt="">
+                </section>
+
+                <section class="cardAbout2">
+                    <p>A Auto Mecânica Baré é especializada no cuidado e manutenção de automóveis de pequeno e médio porte, oferecendo serviços de mecânica geral de alta qualidade. Com 13 anos de experiência na profissão, nosso mecânico principal é comprometido em garantir que cada veículo receba o melhor atendimento, focando sempre em diagnósticos precisos e soluções eficientes.<br><br>
+                    Nossa missão é garantir que seu carro esteja sempre seguro e funcionando de maneira ideal, seja para o dia a dia ou para viagens mais longas. Na Auto Mecânica Baré, você encontra confiança, expertise e dedicação em cada reparo.</p>
+                </section>
+            </section>
+
+            <section class="containerLocaliza" id="localizacao">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117050.70438042004!2d-46.965105288344326!3d-23.538453805023337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94cf03efe61527a3%3A0xc3a81a883cf1128a!2sR.%20Cilene%2C%20162%20-%20Parque%20dos%20Camargos%2C%20Barueri%20-%20SP%2C%2006436-060!3m2!1d-23.5384755!2d-46.8827037!5e0!3m2!1spt-BR!2sbr!4v1724627661896!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <a href="#inicio" target="_self">Início</a>
+                <a href="#sobre" target="_self">Sobre-nós</a>
+                <a href="#servicos" target="_self">serviços</a>
+                <a href="#localizacao" target="_self">Localização</a>
+            </section>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>
